@@ -4,6 +4,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    /* width: 100%; */
     background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
     color: #fff;
     overflow-x: hidden;
@@ -18,7 +19,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    animation: slide-down 1s ease;
+    animation: slide-down 2s ease;
 }
 
 .logo img, .avatar img {
@@ -28,7 +29,9 @@ header {
 }
 
 main {
-    padding: 80px 20px 40px;
+    padding: 150px;
+    background-color: rgba(120deg, #f093fb 0%, #f5576c 100%);
+    
 }
 
 h1 {
@@ -81,7 +84,7 @@ footer {
     background-color: (120deg, #f093fb 0%, #f5576c 100%);
     padding: 10px 10px;
     position: fixed;
-    width: 99%;
+    width: 98%;
     bottom: 0;
     display: flex;
     justify-content: space-between;
