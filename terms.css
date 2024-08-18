@@ -1,0 +1,44 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.terms {
+    text-align: center; /* Center align the text, or adjust as needed */
+}
+
+/* Optional: Add padding to the body or main content to prevent overlap */
+body {
+    padding-top: 60px; /* Adjust according to the header height */
+}
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td ul {
+    padding-left: 20px;
+    margin: 0;
+}
