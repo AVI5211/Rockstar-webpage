@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ header {
 
 main {
     padding: 80px 20px 170px;
-    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
 }
 
 h1 {
@@ -79,7 +79,7 @@ p {
 }
 
 footer {
-    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
     padding: 10px 10px;
     position: fixed;
     width: 99%;
