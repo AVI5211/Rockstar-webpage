@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: rgba(248, 243, 246, 0.8);
+    background-color: rgba(120deg, #f093fb 0%, #f5576c 100%);
     position: fixed;
     width: 100%;
     top: 0;
