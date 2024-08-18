@@ -4,7 +4,6 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    /* width: 100%; */
     background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
     color: #fff;
     overflow-x: hidden;
@@ -14,12 +13,12 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: rgba(120deg, #f093fb 0%, #f5576c 100%);
+    background-color: rgba(248, 243, 246, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    animation: slide-down 2s ease;
+    animation: slide-down 1s ease;
 }
 
 .logo img, .avatar img {
@@ -29,9 +28,7 @@ header {
 }
 
 main {
-    padding: 150px;
-    background-color: rgba(120deg, #f093fb 0%, #f5576c 100%);
-    
+    padding: 80px 20px 40px;
 }
 
 h1 {
@@ -81,10 +78,10 @@ p {
 }
 
 footer {
-    background-color: (120deg, #f093fb 0%, #f5576c 100%);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 10px 10px;
     position: fixed;
-    width: 98%;
+    width: 99%;
     bottom: 0;
     display: flex;
     justify-content: space-between;
