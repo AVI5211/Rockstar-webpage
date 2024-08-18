@@ -28,7 +28,7 @@ header {
 }
 
 main {
-    padding: 150px 20px 240px;
+    padding: 150px 20px 100px;
     background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
 }
 
@@ -80,9 +80,10 @@ p {
 
 footer {
     background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
+    font-family: Arial, sans-serif;
     padding: 10px 10px;
     position: fixed;
-    width: 99%;
+    width: 98%;
     bottom: 0;
     display: flex;
     justify-content: space-between;
