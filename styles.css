@@ -84,7 +84,7 @@ footer {
     padding: 10px 10px;
     position: fixed;
     width: 98%;
-    bottom: 0;
+    bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
