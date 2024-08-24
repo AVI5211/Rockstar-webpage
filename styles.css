@@ -16,7 +16,7 @@ header {
     padding: 10px 10px;
     background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
     position: fixed;
-    width: 98%;
+    width: 96%;
     top: 0;
     z-index: 1000;
     animation: slide-down 1s ease;
