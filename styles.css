@@ -53,9 +53,8 @@ header {
 }
 
 .logo img, .avatar img {
-    width: 100px; /* Adjust as needed */
-    height: auto; /* Maintains the aspect ratio */
-    border-radius: 0; /* Remove or adjust this if you still want rounded corners */
+    width: 200px !important; /* Force this width */
+    height: auto !important; /* Maintain aspect ratio */
     object-fit: contain; /* Ensures the entire image fits within the container without being cut off */
 }
 
