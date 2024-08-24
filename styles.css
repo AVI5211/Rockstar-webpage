@@ -75,7 +75,7 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.5;
-    text-shadow: 1px 1px 3px #000; /* Adds a black shadow */
+    text-shadow: 0px 0px 0px #000; /* Adds a black shadow */
 }
 
 
