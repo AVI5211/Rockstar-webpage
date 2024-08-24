@@ -12,26 +12,25 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding: 10px 20px;
-    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
     position: fixed;
-    width: 100%;
+    width: 98%;
     top: 0;
     z-index: 1000;
     animation: slide-down 1s ease;
 }
-
 .recharge-button a {
     display: flex;
     align-items: center;
     background-color: #ea15a0;
     color: #fff;
-    padding: 10px 15px; /* Adjusted padding */
+    padding: 10px 10px; /* Decreased padding */
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 15px; /* Decreased border-radius */
     font-weight: bold;
-    font-size: 14px; /* Slightly increased font size for better readability */
+    font-size: 12px; /* Decreased font size */
     transition: background-color 0.3s;
     box-shadow: 0px 4px 6px rgba(123, 3, 3, 0.1);
 }
@@ -48,20 +47,20 @@ header {
 
 .recharge-button {
     position: absolute;
-    right: 35px;
+    right: 3px;
     top: 40%;
     transform: translateY(-50%);
 }
 
 .logo img, .avatar img {
-    width: 80px;
+    width: 100px;
     height: auto;
     border-radius: 50%;
 }
 
 main {
-    padding: 150px 20px;
-    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    padding: 150px 20px 150px;
+    background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
 }
 
 h1 {
@@ -100,46 +99,40 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    flex-wrap: wrap;
 }
 
 .avatars img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 0 -8px;
     animation: bounce 2s infinite;
 }
 
 footer {
-    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient (120deg, #f093fb 0%, #f5576c 100%);
     font-family: Arial, sans-serif;
-    padding: 15px 20px;
+    padding: 10px 10px;
     position: fixed;
-    width: 100%;
-    bottom: 0;
+    width: 98%;
+    bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .footer-left {
     text-align: left;
     color: #fff;
-    flex: 1;
 }
 
 .footer-right {
     text-align: right;
-    flex: 1;
 }
 
 .footer-links {
     display: flex;
     gap: 10px;
-    justify-content: center;
-    flex: 1;
 }
 
 .footer-links a {
@@ -180,7 +173,7 @@ footer p {
 /* Media Queries for Responsive Design */
 @media (min-width: 768px) {
     .logo img, .avatar img {
-        width: 120px;
+        width: 150px;
     }
 
     .avatars img {
@@ -195,23 +188,11 @@ footer p {
     p {
         font-size: 20px;
     }
-
-    .app-store img {
-        width: 220px;
-    }
-
-    footer {
-        flex-direction: row;
-    }
-
-    .footer-left, .footer-right {
-        text-align: left;
-    }
 }
 
 @media (max-width: 767px) {
     .logo img, .avatar img {
-        width: 60px;
+        width: 100px;
     }
 
     .avatars img {
@@ -220,7 +201,7 @@ footer p {
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
 
     p {
@@ -231,18 +212,17 @@ footer p {
         width: 150px;
     }
 
-    header, footer {
-        padding: 10px;
+    footer {
+        flex-direction: column;
+        text-align: center;
     }
 
     .footer-left, .footer-right {
         text-align: center;
         margin-bottom: 5px;
-        flex: 100%;
     }
 
     .footer-links {
         justify-content: center;
-        flex-wrap: wrap;
     }
 }
