@@ -245,6 +245,7 @@ footer p {
 }
 
 
-footer .footer-left .line-class {
-    display: none; /* This will target only the element with class 'line-class' */
+footer .footer-left p {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
