@@ -67,7 +67,7 @@ h1 {
     font-size: 48px;
     margin-bottom: 10px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px #000; /* Adds a black shadow */
+    text-shadow: 1px 1px 3px #000; /* Adds a black shadow */
 }
 
 
@@ -75,7 +75,9 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.5;
+    text-shadow: 1px 1px 3px #000; /* Adds a black shadow */
 }
+
 
 .app-store img {
     width: 200px;
@@ -92,6 +94,13 @@ p {
     text-decoration: none;
     transition: color 0.3s;
 }
+.android-link p {
+    color: #fdfdf9;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000; /* Adds a black shadow */
+    margin: 10px 0; /* Optional: Add some spacing around the text */
+}
+
 
 .android-link a:hover {
     color: #ffdf00;
