@@ -26,10 +26,11 @@ header {
     align-items: center;
     background-color: #ea15a0;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 10px; /* Decreased padding */
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 15px; /* Decreased border-radius */
     font-weight: bold;
+    font-size: 12px; /* Decreased font size */
     transition: background-color 0.3s;
     box-shadow: 0px 4px 6px rgba(123, 3, 3, 0.1);
 }
@@ -39,15 +40,15 @@ header {
 }
 
 .recharge-button .recharge-icon {
-    width: 10px;
-    height: 10px;
-    margin-right: 5px;
+    width: 0px;
+    height: 0px;
+    margin-right: 10px;
 }
 
 .recharge-button {
     position: absolute;
-    right: 20px;
-    top: 50%;
+    right: 3px;
+    top: 40%;
     transform: translateY(-50%);
 }
 
@@ -105,7 +106,7 @@ p {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin: 0 -8px;
+    margin: 0 -6px;
     animation: bounce 2s infinite;
 }
 
@@ -177,8 +178,8 @@ footer p {
     }
 
     .avatars img {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 
     h1 {
