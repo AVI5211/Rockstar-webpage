@@ -243,3 +243,8 @@ footer p {
         justify-content: center;
     }
 }
+
+
+footer .footer-left .line-class {
+    display: none; /* This will target only the element with class 'line-class' */
+}
