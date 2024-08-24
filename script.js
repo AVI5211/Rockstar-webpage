@@ -3,7 +3,7 @@ const teamMembers = [
     {
         id: "uriRaz",
         title: "CEO",
-        bio: "Uri Raz has served as Rockstar's Founder and Executive Chairman since its inception in 2009. Uri founded AppStream (acquired by Symantec) & Dyyno, establishing himself as a prominent figure in the tech industry, and has a proven track record of entrepreneurial success."
+        bio: "Uri Raz has served as RoxStar's Founder and Executive Chairman since its inception in 2009. Uri founded AppStream (acquired by Symantec) & Dyyno, establishing himself as a prominent figure in the tech industry, and has a proven track record of entrepreneurial success."
     },
     {
         id: "yanivSchwartz",

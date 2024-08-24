@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recharge and Payment Mode</title>
+    <link rel="stylesheet" href="recharge.css">
+</head>
+<body>
+    <div>
+    <div class="container">
+        <!-- Recharge Section -->
+        <section id="recharge-section">
+            <h1>Recharge Coins</h1>
+            <div class="header">
+                <h2>Recharging Account</h2>
+                <a href="#" class="help-link">What's RoxStar ID?</a>
+            </div>
+            <div class="input-container">
+                <label for="account">RoxStar SID</label>
+                <button class="change-btn">Change</button>
+                <div class="input-box">
+                    <input type="text" id="account" placeholder="Input your account">
+                </div>
+            </div>
+            <button class="confirm-btn">Confirm</button>
+        </section>
+        </div>
+        <h2 style="text-align: center;">Recharge Options</h2>
+
+
+        <!-- Payment Mode Section -->
+        <section id="payment-section">
+            <div class="payment-mode">
+                <div class="header">
+                    <h2>Payment Mode</h2>
+                </div>
+
+                <!-- UPI Method -->
+                <div class="method" onclick="toggleOptions('upi-options')">
+                    <div class="method-title">
+                        <img src="assets/upi.png" alt="UPI Logo" class="logo">
+                        <span>UPI</span>
+                    </div>
+                    <div id="upi-options" class="coins-grid hidden">
+                        <!-- Coin options for UPI -->
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 79
+                            </div>
+                            <div class="amount">₹ 100</div>
+                            <div class="bonus">+25 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 395
+                            </div>
+                            <div class="amount">₹ 500</div>
+                            <div class="bonus">+131 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 791
+                            </div>
+                            <div class="amount">₹ 1000</div>
+                            <div class="bonus">+276 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 1589
+                            </div>
+                            <div class="amount">₹ 2000</div>
+                            <div class="bonus">+551 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 3958
+                            </div>
+                            <div class="amount">₹ 5000</div>
+                            <div class="bonus">+1462 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 7916
+                            </div>
+                            <div class="amount">₹ 10000</div>
+                            <div class="bonus">+2924 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 15833
+                            </div>
+                            <div class="amount">₹ 20000</div>
+                            <div class="bonus">+6017 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 15833
+                            </div>
+                            <div class="amount">₹ 22000</div>
+                            <div class="bonus">+1589 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 19795
+                            </div>
+                            <div class="amount">₹ 25000</div>
+                            <div class="bonus">+7000 Bonus</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Payment Method -->
+                <div class="method" onclick="toggleOptions('card-options')">
+                    <div class="method-title">
+                        <img src="assets/card.png" alt="Card Payment Logo" class="logo">
+                        <span>Card Payment</span>
+                    </div>
+                    <div id="card-options" class="coins-grid hidden">
+                        <!-- Coin options for Card Payment -->
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 32
+                            </div>
+                            <div class="amount">₹ 50</div>
+                            <div class="bonus">+0 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 65
+                            </div>
+                            <div class="amount">₹ 100</div>
+                            <div class="bonus">+1 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 335
+                            </div>
+                            <div class="amount">₹ 500</div>
+                            <div class="bonus">+5 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 675
+                            </div>
+                            <div class="amount">₹ 1000</div>
+                            <div class="bonus">+10 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 1350
+                            </div>
+                            <div class="amount">₹ 2000</div>
+                            <div class="bonus">+25 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 3400
+                            </div>
+                            <div class="amount">₹ 5000</div>
+                            <div class="bonus">+75 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 7000
+                            </div>
+                            <div class="amount">₹ 10000</div>
+                            <div class="bonus">+200 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 15000
+                            </div>
+                            <div class="amount">₹ 20000</div>
+                            <div class="bonus">+500 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 12
+                            </div>
+                            <div class="amount">₹ 8545</div>
+                            <div class="bonus">+121 Bonus</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Net Banking Method -->
+                <div class="method" onclick="toggleOptions('netbanking-options')">
+                    <div class="method-title">
+                        <img src="assets/netbanking.png" alt="Net Banking Logo" class="logo">
+                        <span>Net Banking</span>
+                    </div>
+                    <div id="netbanking-options" class="coins-grid hidden">
+                        <!-- Coin options for Net Banking -->
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 54
+                            </div>
+                            <div class="amount">₹ 980</div>
+                            <div class="bonus">+542 Bonus</div>
+                        </div>
+                        <div class="coin-option">
+                            <div class="coin-value">
+                                <img src="assets/coin.png" alt="Coin Logo" class="coin-logo"> 52
+                            </div>
+                            <div class="amount">₹ 850</div>
+                            <div class="bonus">+52 Bonus</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function toggleOptions(id) {
+            // Hide all other coin options
+            var allOptions = document.querySelectorAll('.coins-grid');
+            allOptions.forEach(function(option) {
+                option.classList.add('hidden');
+            });
+            
+            // Toggle the clicked option
+            var element = document.getElementById(id);
+            element.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+/* Common Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #e4e4df;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #27367f;
+}
+
+/* Recharge Page Styles */
+.container {
+    text-align: center;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.help-link {
+    font-size: 12px;
+    color: #ff007f;
+    text-decoration: none;
+}
+
+.input-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #0b0b0b;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+    color: #333;
+}
+
+input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+}
+
+.change-btn {
+    background-color: transparent;
+    color: #ff007f;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.change-btn:hover {
+    text-decoration: underline;
+    color: #ff66a3;
+}
+
+.confirm-btn {
+    background-color: #ff007f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+}
+
+.confirm-btn:hover {
+    background-color: #ff66a3;
+}
+
+/* Payment Page Styles */
+.payment-mode {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.method {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.method:last-child {
+    border-bottom: none;
+}
+
+.method-title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #27367f;
+}
+
+.method-title img {
+    width: 28px;
+    margin-right: 15px;
+}
+
+.coins-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.coin-option {
+    width: 22%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.coin-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fcd400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin-logo {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.amount {
+    font-size: 16px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.bonus {
+    font-size: 14px;
+    color: #fcd400;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
