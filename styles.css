@@ -39,9 +39,9 @@ header {
 }
 
 .recharge-button .recharge-icon {
-    width: 10px;
-    height: 10px;
-    margin-right: 5px;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
 }
 
 .recharge-button {
