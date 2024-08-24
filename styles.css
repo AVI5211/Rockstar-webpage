@@ -155,11 +155,13 @@ footer {
     color: #f7f2f2;
     text-decoration: none;
     transition: color 0.3s;
+    text-shadow: 1px 1px 3px #000; /* Add black shadow to footer links */
 }
 
 .footer-links a:hover {
     color: #ffd700;
 }
+
 
 footer p {
     margin: 0;
