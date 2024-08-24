@@ -52,9 +52,10 @@ header {
 }
 
 .logo img, .avatar img {
-    width: 100px;
-    height: auto;
-    border-radius: 50%;
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 0; /* Remove or adjust this if you still want rounded corners */
+    object-fit: contain; /* Ensures the entire image fits within the container without being cut off */
 }
 
 main {
