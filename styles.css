@@ -24,7 +24,7 @@ header {
 .recharge-button a {
     display: flex;
     align-items: center;
-    background-color: #ea15a0;
+    background-color: #5e044bd3;
     color: #fff;
     padding: 10px 10px; /* Decreased padding */
     text-decoration: none;
@@ -34,6 +34,7 @@ header {
     transition: background-color 0.3s;
     box-shadow: 4px 4px 6px rgba(123, 3, 3, 0.1);
     text-shadow: 2px 2px 4px #000; /* Horizontal offset, vertical offset, blur radius, and shadow color */
+    border: 1px solid #000; /* Added a small black border */
 }
 
 .recharge-button a:hover {
@@ -41,17 +42,18 @@ header {
 }
 
 .recharge-button .recharge-icon {
-    width: 0px;
-    height: 0px;
-    margin-right: 10px;
+    width: 40px;
+    height: 20px;
+    margin-right: 0px;
 }
 
 .recharge-button {
     position: absolute;
-    right: 3px;
+    right: 0px;
     top: 40%;
     transform: translateY(-50%);
 }
+
 
 .logo img, .avatar img {
     width: 200px !important; /* Force this width */
