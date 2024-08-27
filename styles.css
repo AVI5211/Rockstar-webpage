@@ -169,6 +169,32 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 30%;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Specific Background Colors on Hover */
+.linkedin-icon:hover {
+    background-color: #0077B5; /* LinkedIn Blue */
+}
+
+.whatsapp-icon:hover {
+    background-color: #25D366; /* WhatsApp Green */
+}
+
+.threads-icon:hover {
+    background-color: #333333; /* Threads Black */
+}
+
+.instagram-icon:hover {
+    background-color: #E4405F; /* Instagram Pink */
+}
+
 
 /* Keyframes for Animations */
 @keyframes bounce {
