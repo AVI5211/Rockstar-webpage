@@ -12,39 +12,23 @@ document.addEventListener("DOMContentLoaded", function() {
         const email = document.getElementById("email").value;
         const message = document.getElementById("message").value;
 
-        // Send the email using EmailJS
-        emailjs.send("your_service_id_here", "your_template_id_here", {
-            from_name: name,
-            from_email: email,
-            message: message,
-        }).then(function(response) {
-            // Success message or animation
-            alert("Message Sent Successfully!");
-            form.reset(); // Reset the form after submission
-        }, function(error) {
-            // Handle error
-            alert("Failed to send message. Please try again.");
-        });
+        // Check if all fields are filled
+        if (name && email && message) {
+            // Send the email using EmailJS
+            emailjs.send("your_service_id_here", "your_template_id_here", {
+                from_name: name,
+                from_email: email,
+                message: message,
+            }).then(function(response) {
+                // Success message or animation
+                alert("Message Sent Successfully!");
+                form.reset(); // Reset the form after submission
+            }, function(error) {
+                // Handle error
+                alert("Failed to send message. Please try again.");
+            });
+        } else {
+            alert("Please fill out all fields before sending the message.");
+        }
     });
 });
-
-function handleSubmit() {
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-
-    // Check if all fields are filled
-    if (name && email && message) {
-        // Show the options if the form is filled
-        document.getElementById('sendOptions').style.display = "block";
-    } else {
-        alert("Please fill out all fields before sending the message.");
-    }
-}
-
-function sendEmail() {
-    const form = document.getElementById("contactForm");
-
-    // Trigger form submission to send email using EmailJS
-    form.submit();
-}
